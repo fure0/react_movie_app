@@ -4,14 +4,18 @@ function Food({fav}) {
   return <h1>I like {fav}</h1>;
 }
 
+const foodIlike = [
+  {name:"kimchi"},
+  {name:"pizza"},
+  {name:"chicken"},
+  {name:"rice"},
+  {name:"bread"}
+];
+
 function App(props) {
   return (
-    <div className="App">
-      <h1>hello</h1>
-      <Food fav="kimchii" />
-      <Food fav="ramen" />
-      <Food fav="samgiopsal" />
-      <Food fav="chukumi" />
+    <div>
+      {foodIlike.map(dish => <Food fav={dish.name}/> )}
     </div>
   );
 }
