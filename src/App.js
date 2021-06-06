@@ -5,11 +5,11 @@ function Food({name}) {
 }
 
 const foodIlike = [
-  {id:1, name:"kimchi"},
-  {id:2, name:"pizza"},
-  {id:3, name:"chicken"},
-  {id:4, name:"rice"},
-  {id:5, name:"bread"}
+  {id:1, name:"kimchi", rating: 5},
+  {id:2, name:"pizza", rating: 3},
+  {id:3, name:"chicken", rating: 5},
+  {id:4, name:"rice", rating: 5},
+  {id:5, name:"bread", rating: 2}
 ];
 
 function App(props) {
