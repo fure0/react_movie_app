@@ -11,6 +11,7 @@ function Food({name, rating}) {
 }
 
 // type check
+// push test
 Food.propTypes = {
   name: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
