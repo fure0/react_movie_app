@@ -10,6 +10,7 @@ function Food({name, rating}) {
   );
 }
 
+// type check
 Food.propTypes = {
   name: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
